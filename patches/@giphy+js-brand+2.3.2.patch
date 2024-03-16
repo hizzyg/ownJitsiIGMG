@@ -1,5 +1,40 @@
+diff --git a/node_modules/@giphy/js-brand/README.md b/node_modules/@giphy/js-brand/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/dist/colors.d.ts b/node_modules/@giphy/js-brand/dist/colors.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/dist/colors.js b/node_modules/@giphy/js-brand/dist/colors.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/dist/colors.js.map b/node_modules/@giphy/js-brand/dist/colors.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/dist/index.d.ts b/node_modules/@giphy/js-brand/dist/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/dist/index.js b/node_modules/@giphy/js-brand/dist/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/dist/index.js.map b/node_modules/@giphy/js-brand/dist/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/dist/loader.d.ts b/node_modules/@giphy/js-brand/dist/loader.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/dist/loader.js b/node_modules/@giphy/js-brand/dist/loader.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/dist/loader.js.map b/node_modules/@giphy/js-brand/dist/loader.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/dist/typography.d.ts b/node_modules/@giphy/js-brand/dist/typography.d.ts
+old mode 100644
+new mode 100755
 diff --git a/node_modules/@giphy/js-brand/dist/typography.js b/node_modules/@giphy/js-brand/dist/typography.js
-index 75ad96b..815cb8b 100644
+old mode 100644
+new mode 100755
+index 75ad96b..aaf200b
 --- a/node_modules/@giphy/js-brand/dist/typography.js
 +++ b/node_modules/@giphy/js-brand/dist/typography.js
 @@ -6,7 +6,7 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
@@ -11,3 +46,54 @@ index 75ad96b..815cb8b 100644
  exports.addFonts = addFonts;
  try {
      // in an env where process.env exists,
+diff --git a/node_modules/@giphy/js-brand/dist/typography.js.map b/node_modules/@giphy/js-brand/dist/typography.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/colors.d.ts b/node_modules/@giphy/js-brand/esm/colors.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/colors.js b/node_modules/@giphy/js-brand/esm/colors.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/colors.js.map b/node_modules/@giphy/js-brand/esm/colors.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/index.d.ts b/node_modules/@giphy/js-brand/esm/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/index.js b/node_modules/@giphy/js-brand/esm/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/index.js.map b/node_modules/@giphy/js-brand/esm/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/loader.d.ts b/node_modules/@giphy/js-brand/esm/loader.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/loader.js b/node_modules/@giphy/js-brand/esm/loader.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/loader.js.map b/node_modules/@giphy/js-brand/esm/loader.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/typography.d.ts b/node_modules/@giphy/js-brand/esm/typography.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/typography.js b/node_modules/@giphy/js-brand/esm/typography.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/esm/typography.js.map b/node_modules/@giphy/js-brand/esm/typography.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/src/colors.ts b/node_modules/@giphy/js-brand/src/colors.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/src/index.ts b/node_modules/@giphy/js-brand/src/index.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/src/loader.ts b/node_modules/@giphy/js-brand/src/loader.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@giphy/js-brand/src/typography.ts b/node_modules/@giphy/js-brand/src/typography.ts
+old mode 100644
+new mode 100755
