@@ -253,6 +253,12 @@ export function participantJoined(participant: IParticipant) {
                 participant
             });
         }
+        if (participant.role === 'participant') {
+            console.log(`Participant ${participant.name} has the role ${participant.role}`);
+        }
+        if (participant.role === 'moderator') {
+            console.log(`Participant ${participant.name} has the role ${participant.role}`);
+        }
     };
 }
 
@@ -436,6 +442,20 @@ export function participantPresenceChanged(id: string, presence: string) {
  * }}
  */
 export function participantRoleChanged(id: string, role: string) {
+    const audioPreviewContainer = document.querySelector('.css-12sf7ri-container.audio-preview') as HTMLElement;
+    // eslint-disable-next-line max-len
+    const videoPrevivideoPreviewContainer = document.querySelector('.video-preview.css-wq06k3-container') as HTMLElement;
+
+    // eslint-disable-next-line no-negated-condition
+    if (role === 'moderator') {
+        audioPreviewContainer.style.display = '';
+        videoPrevivideoPreviewContainer.style.display = '';
+    } else {
+        console.log('The partticipant ${id} is ${role} now');
+        audioPreviewContainer.style.display = 'none';
+        videoPrevivideoPreviewContainer.style.display = 'none';
+    }
+
     return participantUpdated({
         id,
         role
